@@ -6,55 +6,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
+    android:layout_marginBottom="47dp"
     android:background="@color/teal_700">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
-
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            app:cardCornerRadius="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:shapeAppearance="@style/ShapeAppearance.MyApp.MediumComponent.Rounded"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Phone Number Verification"
-                android:textColor="@android:color/holo_red_dark"
-                android:textSize="20sp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="We will sent you a OTP message"
-                android:textColor="#878787"
-                android:textSize="15sp"
-                android:gravity="center"
-                android:layout_marginTop="50dp"/>
-
-
-        </androidx.cardview.widget.CardView>
-
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="320dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="120dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginEnd="15dp"
                 android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number Verification"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"/>
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="We will sent you a OTP message"
+                    android:textColor="#878787"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"/>
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                     android:layout_width="match_parent"
@@ -74,7 +61,7 @@
                     android:id="@+id/verify"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:text="Verify"
                     android:textColor="#fff" />
 
@@ -82,7 +69,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="30dp">
+                    android:layout_marginTop="15dp">
                     <View
                         android:layout_width="0dp"
                         android:layout_weight="3"
@@ -103,9 +90,14 @@
                         android:background="?android:attr/listDivider" />
                 </LinearLayout>
 
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/google"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"/>
 
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
-    </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
 </RelativeLayout>

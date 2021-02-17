@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TripActivity">
+    tools:context=".LoadActivity">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/bottom_menu"
-        android:layout_marginBottom="47dp"
-        android:layout_alignParentBottom="true"/>
-
-</RelativeLayout>
+       android:src="@drawable/trucks"
+        android:padding="90dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

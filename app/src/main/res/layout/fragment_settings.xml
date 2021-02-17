@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context="com.forbitbd.fragments.SettingsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ddd">
+        </ImageView>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profileimage"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_color="@color/teal_700"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="1dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"
+            app:civ_shadow_color="@color/teal_200"/>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/profileimage">-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--                android:text="Upload"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_marginBottom="20dp"/>-->
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--                android:text="Change"-->
+<!--                android:layout_marginBottom="20dp"/>-->
+<!--        </RelativeLayout>-->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Saimul Hoque"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="+8801881269553"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Profile Settings"
+            android:layout_marginTop="10dp"
+            app:icon="@drawable/ic_settings_applications" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address Book"
+            app:icon="@drawable/ic_location" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promo Codes"
+            app:icon="@drawable/ic_location" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/helpline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helpline"
+            app:icon="@drawable/ic_help_center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/privacypolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            app:icon="@drawable/ic_location" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Logout"
+            app:icon="@drawable/ic_baseline_login_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>

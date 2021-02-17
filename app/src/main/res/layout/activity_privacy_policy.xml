@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicyActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Truck Lagbe private company Limited by shares being “Truck Lagbe Limited”, hereinafter TL, with its Head Office at 107, Motijheel C/A, Dhaka-1000, Bangladesh, has concluded – directly or through its subsidiaries – partnership agreements with privileged groups of truck owners, drivers, agencies, shippers and other related entities, hereinafter referred to as “Partner(s)” so as to constitute a national network. The company, TL, has developed, under the brand, “Truck Lagbe”, a mobile/web based online platform, hereinafter designated as, “Application”, as well as a website at the address, https://www.trucklagbe.com.
+PRIVACY AND DATA PROTECTION ACT
+
+
+
+The information gathered by TL for the Service is subject to data processing intended for the implementation of the Service. This information is required in order for TL to process requests for Transportations and is recorded in its files. Security measures preserving confidentiality are implemented by TL. The User is informed and accepts that TL and the Partner reserve the right to retain, for evidence purposes, all information relating to requests received, the identification data of the User and completed Transportations (including phone number, name and address, email address, details of the completed Transportation) and TL may use personal data to contact the User by email, sms, push notification, or any other means concerning commercial offers related to the service that may be of interest. TL newsletters/promotions/offers that will be sent to the User will include an unsubscribe link should the User wish to withdraw from the list. In accordance with the “Data Protection” law, the User has the right to access, modify, rectify and delete personal data. When contacting for any request, the User shall mention their name and mobile phone number and enclose a copy of their ID to the below mentioned address.
+
+by email: legal@trucklagbe.com
+
+by post: Truck Lagbe Limited
+
+107, Motijheel C/A
+
+Dhaka 1000, Bangladesh
+
+
+
+SPECIFIC PROVISIONS FOR THE LINKING BY THE SMARTPHONE/TABLET/WEB-BASED APPLICATION
+
+
+
+Cookie
+
+The User agrees having been advised that TL may be required to implement “cookies” to identify the User for the duration of the session on the website. This memory-resident cookie remains active as long as the User has not left the session. The User can object to the use of this cookie without limiting their ability to access the site by configuring their browser appropriately.
+
+
+
+Data TL collects include
+
+
+
+The data user provides while creating or updating their TL accounts. This may include their name, email, phone number, login name, profile picture, payment or banking information (including related payment verification information), government identification documents, including driver’s license numbers and images, birthdate, signature, and photo. This also includes vehicle or insurance information of drivers and delivery partners, and user settings. We may use the photos, phone number, NID submitted by drivers and/or delivery partners to verify their identities, such as through facial recognition technologies.
+
+
+The information users submit when they contact TL customer support, provide ratings or compliments. This may include feedback, photographs, hotline conversations or other recordings collected by users.
+
+
+Precise or approximate location data from a user’s mobile device if enabled by the user to do so. When the TL app is running in the foreground (app open and on-screen) or background (app open but not on-screen) of users’ mobile device. However we don’t take locations from the devices for running the service where users did not provide permission. Some of our features can hamper because  of the lack of location permission. In addition, the location data collected from a driver or rental device during a trip will be linked to the customer’s account, even if they have not enabled location data to be collected from their device, including for purposes of receipt generation, customer support, fraud detection, insurance, and litigation.
+
+
+Transaction information related to the use of our services, including the type of services requested or provided, order details, delivery information, date and time the service was provided, amount charged and payment method. Additionally, if someone uses your promotion code, we may associate your name with that person.
+
+
+Users’ interaction data with our services. This includes data such as access dates and times, app features or pages viewed, app crashes and other system activity, type of browser, and third-party sites or services used before interacting with our services. In some cases, we collect this data through cookies, pixels, tags, and similar tracking technologies that create and maintain unique identifiers.
+The devices used to access our services, including the hardware models, device IP address, operating systems and versions, software, preferred languages, unique device identifiers, advertising identifiers, serial numbers, device motion data, and mobile network data.
+
+
+Publicly available sources
+
+
+Marketing service providers.
+
+
+How TL uses data
+
+
+
+
+
+To provide reliable and convenient transportation, delivery, and other products and services.
+To enhance the safety and security of our users and services
+For customer support
+For research and development
+To enable communications between users
+To send marketing and non-marketing communications to users
+In connection with legal proceedings
+TL does not sell or share user personal data with third parties for their direct marketing, except with users’ consent.
+
+
+
+Update
+
+The Company reserves the right to add, revise, amend, modify or delete any part of this Policy (in part or in full) at its discretion. The updated version of this Policy in force will be posted on the Company’s website from time to time. In the event of any change in the Act or the Rules or in case of any requirement arising under any of the applicable law, this Policy shall be deemed to be amended or modified to the extent necessary to comply with such amendment to the Act or the Rules or to meet any requirement under the applicable laws." />
+    </ScrollView>
+
+
+</RelativeLayout>

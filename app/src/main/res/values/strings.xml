@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Vehicle Rent</string>
+    <string name="whole_day">Whole Day</string>
+    <string name="route">Route</string>
+    <string name="tk">৳</string>
+    <string name="_7_feet_1_ton_open">7 Feet 1 Ton (Open)</string>
+    <string name="_750">750</string>
+    <string name="small_quantities_of_goods_electronics_hardware">Small quantities of goods, electronics, hardware...</string>
+    <string name="icon">icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
