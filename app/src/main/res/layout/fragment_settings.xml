@@ -65,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Saimul Hoque"
+            android:text="@string/saimul_hoque"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="+8801881269553"
+            android:text="@string/_8801881269553"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -94,43 +94,42 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=" Profile Settings"
-            android:layout_marginTop="10dp"
-            app:icon="@drawable/ic_settings_applications" />
+            android:text="@string/profile_settings"
+            android:layout_marginTop="10dp" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Address Book"
-            app:icon="@drawable/ic_location" />
+            android:text="@string/address_book" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Promo Codes"
-            app:icon="@drawable/ic_location" />
+            android:text="@string/promo_codes" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/helpline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Helpline"
-            app:icon="@drawable/ic_help_center" />
+            android:text="@string/helpline" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/privacypolicy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Privacy Policy"
-            app:icon="@drawable/ic_location" />
+            android:text="@string/privacy_policy" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_amp_conditions" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Logout"
-            app:icon="@drawable/ic_baseline_login_24" />
+            android:text="@string/logout" />
 
     </LinearLayout>
 

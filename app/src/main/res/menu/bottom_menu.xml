@@ -2,25 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
-        android:icon="@drawable/home"
-        android:title="Home"
+        android:icon="@drawable/house"
+        android:title="@string/home"
         android:enabled="true"/>
 
     <item
         android:id="@+id/trip"
-        android:icon="@drawable/ic_baseline_electric_car_24"
-        android:title="Trip"
+        android:icon="@drawable/truck"
+        android:title="@string/trip"
         android:enabled="true"/>
 
     <item
         android:id="@+id/inbox"
-        android:icon="@drawable/ic_baseline_inbox_24"
-        android:title="Inbox"
+        android:icon="@drawable/email"
+        android:title="@string/inbox"
         android:enabled="true"/>
 
     <item
         android:id="@+id/settings"
-        android:icon="@drawable/ic_settings_applications"
-        android:title="Settings"
+        android:icon="@drawable/gear"
+        android:title="@string/settings"
         android:enabled="true"/>
 </menu>

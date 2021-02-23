@@ -69,4 +69,6 @@ public class RegistrationActivity extends AppCompatActivity {
             return fragmentTitle.get(position);
         }
     }
+
+
 }

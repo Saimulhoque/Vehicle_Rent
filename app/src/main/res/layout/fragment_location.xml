@@ -10,14 +10,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:layout_marginEnd="10dp"
             android:orientation="vertical">
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Load Location"
+                android:hint="@string/load_location"
                 android:textColorHint="#BABABA"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_arrow_circle_up_24">
@@ -29,12 +29,13 @@
                     android:inputType="text"
                     android:textColor="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Unload Location"
+                android:hint="@string/unload_location"
                 android:textColorHint="#BABABA"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_arrow_circle_down_24">
@@ -46,6 +47,7 @@
                     android:inputType="text"
                     android:textColor="@color/white" />
             </com.google.android.material.textfield.TextInputLayout>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

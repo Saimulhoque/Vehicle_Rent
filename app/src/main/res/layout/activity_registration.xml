@@ -27,14 +27,15 @@
                 android:id="@+id/tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Trip Donor">
+                android:text="@string/trip_donor">
 
             </com.google.android.material.tabs.TabItem>
+
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/tab2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Trip Recipient" />
+                android:text="@string/trip_recipient" />
         </com.google.android.material.tabs.TabLayout>
 
 

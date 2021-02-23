@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userphoto"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:src="@drawable/ic_baseline_person_24"
@@ -24,64 +25,68 @@
             android:layout_marginTop="10dp"
             app:civ_shadow_color="@color/teal_700"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/uploadimage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:text="Upload"
+            android:text="@string/upload"
             android:layout_marginBottom="20dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             app:hintEnabled="false"
             android:textColorHint="#BABABA">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Username"
+                android:hint="@string/username"
                 android:textColor="@color/black"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:textColorHint="#BABABA"
             app:hintEnabled="false"
             android:layout_marginTop="10dp">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userphone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Mobile No"
+                android:hint="@string/mobile_no"
                 android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             app:hintEnabled="false"
             android:textColorHint="#BABABA"
             android:layout_marginTop="10dp">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/useraddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Address"
+                android:hint="@string/address"
                 android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             app:hintEnabled="false"
             android:textColorHint="#BABABA"
             android:layout_marginTop="10dp">
@@ -89,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
-                android:hint="Reference Code (Optional)"
+                android:hint="@string/reference_code_optional"
                 android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 

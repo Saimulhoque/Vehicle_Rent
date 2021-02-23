@@ -13,19 +13,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VehicleRent">
-        <activity android:name=".PrivacyPolicyActivity"></activity>
-        <activity android:name=".TripPostActivity"></activity>
-        <activity android:name=".RegistrationActivity"></activity>
-        <activity android:name=".LoadActivity"></activity>
-        <activity android:name=".OTPActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".TripDetailsActivity">
+
+        </activity>
+        <activity android:name=".PrivacyPolicyActivity" />
+        <activity android:name=".TripPostActivity">
+
+        </activity>
+        <activity android:name=".RegistrationActivity">
+
+        </activity>
+        <activity android:name=".LoadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".OTPActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

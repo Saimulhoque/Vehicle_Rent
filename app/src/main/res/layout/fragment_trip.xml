@@ -24,14 +24,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="No Current Trip"
+            android:text="@string/no_current_trip"
             android:textSize="20sp"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/createtrip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create New Trip"
+            android:text="@string/create_new_trip"
             android:textSize="20sp" />
     </LinearLayout>
 

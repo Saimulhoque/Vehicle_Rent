@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="Enter OTP"
+                android:text="@string/enter_otp"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="We have sent OTP on your number"
+                android:text="@string/we_have_sent_otp_on_your_number"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
 
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginTop="25dp"
-                android:text="Submit"
+                android:text="@string/submit"
                 android:textColor="#ffff" />
 
         </LinearLayout>

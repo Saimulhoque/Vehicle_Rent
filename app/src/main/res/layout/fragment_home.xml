@@ -26,16 +26,16 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center"
-                android:text="Set Your Location"
+                android:text="@string/set_your_location"
                 android:textColor="#FF0000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Load Location"
+                android:hint="@string/load_location"
                 android:textColorHint="#BABABA"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_arrow_circle_up_24">
@@ -49,11 +49,11 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Unload Location"
+                android:hint="@string/unload_location"
                 android:textColorHint="#BABABA"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/ic_baseline_arrow_circle_down_24">
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginTop="10dp"
-                android:text="Next"
+                android:text="@string/next"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
         </LinearLayout>

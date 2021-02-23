@@ -16,8 +16,6 @@ public class LoadActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        this.getWindow().setStatusBarColor(Color.TRANSPARENT);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_load);
     }

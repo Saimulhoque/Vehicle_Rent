@@ -1,7 +1,9 @@
 package com.forbitbd.vehiclerent;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
@@ -13,6 +15,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -28,6 +31,7 @@ public class OTPActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private EditText etCode;
     private Button btnSubmit;
+    FirebaseAuth.AuthStateListener mAuthListener;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -66,14 +70,12 @@ public class OTPActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            //verification successful we will start the profile activity
                             FirebaseUser user = task.getResult().getUser();
-                            Log.d("dsfhjdfjh",user.getUid());
+                            Log.d("dsfhjdfjh", user.getUid());
                             Toast.makeText(OTPActivity.this, "Verification Complete", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(OTPActivity.this, MainActivity.class));
+                            startActivity(new Intent(OTPActivity.this, RegistrationActivity.class));
                             finish();
                         } else {
-                            //verification unsuccessful.. display an error message
                             String message = "Somthing is wrong, we will fix it soon...";
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
                                 message = "Invalid code entered...";
