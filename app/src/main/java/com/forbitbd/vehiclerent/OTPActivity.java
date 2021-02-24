@@ -73,7 +73,7 @@ public class OTPActivity extends AppCompatActivity {
                             FirebaseUser user = task.getResult().getUser();
                             Log.d("dsfhjdfjh", user.getUid());
                             Toast.makeText(OTPActivity.this, "Verification Complete", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(OTPActivity.this, RegistrationActivity.class));
+                            startActivity(new Intent(OTPActivity.this, MainActivity.class));
                             finish();
                         } else {
                             String message = "Somthing is wrong, we will fix it soon...";

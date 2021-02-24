@@ -16,7 +16,7 @@
         </ImageView>
 
         <com.mikhaellopez.circularimageview.CircularImageView
-            android:id="@+id/profileimage"
+            android:id="@+id/userphoto"
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:src="@drawable/ic_baseline_person_24"
