@@ -54,6 +54,10 @@
     <string name="product_details"><u>Product Details:</u></string>
     <string name="trip_time"><u>Trip Time:</u></string>
     <string name="additional">Additional</string>
+    <string name="select_your_trip_date_amp_time"><![CDATA[Select Your Trip Date & Time]]></string>
+    <string name="select_trip_date"><u>Select Trip Date</u></string>
+    <string name="select_trip_time"><u>Select Trip Time</u></string>
+    <string name="update">Update</string>
 
     <string-array name="VehicleCapacity">
         <item>10 CBM</item>

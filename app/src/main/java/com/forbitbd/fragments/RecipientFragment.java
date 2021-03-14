@@ -39,8 +39,8 @@ public class RecipientFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_recipient, container, false);
 
-        vehiclecapacity = view.findViewById(R.id.vehiclecapacity);
         vehicletype = view.findViewById(R.id.vehicletype);
+        vehiclecapacity = view.findViewById(R.id.vehiclecapacity);
         String[] VehicleCapacity = getResources().getStringArray(R.array.VehicleCapacity);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getContext(),android.R.layout.simple_spinner_dropdown_item,VehicleCapacity);
         vehiclecapacity.setAdapter(adapter);

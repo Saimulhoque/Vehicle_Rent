@@ -29,28 +29,6 @@
             android:layout_marginEnd="120dp"
             app:civ_shadow_color="@color/teal_200"/>
 
-<!--        <RelativeLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:gravity="center"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@+id/profileimage">-->
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center"-->
-<!--                style="@style/Widget.MaterialComponents.Button.TextButton"-->
-<!--                android:text="Upload"-->
-<!--                android:visibility="gone"-->
-<!--                android:layout_marginBottom="20dp"/>-->
-
-<!--            <Button-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center"-->
-<!--                style="@style/Widget.MaterialComponents.Button.TextButton"-->
-<!--                android:text="Change"-->
-<!--                android:layout_marginBottom="20dp"/>-->
-<!--        </RelativeLayout>-->
     </RelativeLayout>
 
     <LinearLayout
@@ -70,13 +48,23 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/userphone"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/_8801881269553"
-            android:textSize="16sp" />
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/userphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/useremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp" />
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -92,6 +80,7 @@
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/profile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/profile_settings"

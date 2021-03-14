@@ -2,11 +2,11 @@ package com.forbitbd.vehiclerent;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.WindowManager;
+
+import com.forbitbd.vehiclerent.login.LoginActivity;
 
 public class LoadActivity extends AppCompatActivity {
     Handler handler = new Handler();

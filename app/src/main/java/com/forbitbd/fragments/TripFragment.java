@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.forbitbd.vehiclerent.MainActivity;
 import com.forbitbd.vehiclerent.R;
 import com.forbitbd.vehiclerent.TripPostActivity;
 import com.google.android.material.button.MaterialButton;
@@ -17,12 +18,9 @@ public class TripFragment extends Fragment {
 
     private MaterialButton btncreatetrip;
 
-
-
     public TripFragment() {
         // Required empty public constructor
     }
-
 
     public static TripFragment newInstance(String param1, String param2) {
         TripFragment fragment = new TripFragment();
@@ -32,7 +30,6 @@ public class TripFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -45,13 +42,11 @@ public class TripFragment extends Fragment {
         btncreatetrip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment fragment = new LocationFragment();
-                getFragmentManager().beginTransaction()
-                        .replace(R.id.container, fragment)
-                        .addToBackStack(TripFragment.class.getSimpleName())
-                        .commit();
+                Intent intent = new Intent(getContext(),MainActivity.class);
+                startActivity(intent);
             }
         });
+
         return view;
     }
 }

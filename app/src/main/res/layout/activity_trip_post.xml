@@ -8,12 +8,9 @@
     tools:context=".TripPostActivity"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:title="@string/additional" />
+
+
+
     <com.google.android.material.card.MaterialCardView
         style="@style/ShapeAppearance.MyApp.MediumComponent.Rounded2"
         android:layout_width="match_parent"
@@ -244,7 +241,7 @@
                 android:layout_marginEnd="10dp"/>
         </LinearLayout>
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/confirm"
+            android:id="@+id/review"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Review"
